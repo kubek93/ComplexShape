@@ -9,8 +9,8 @@ Kolo::Kolo(double x, double y, double r)
 
 	cout << "KOLO!" << endl;
 	cout << "wsp x: " << x << endl;
-	cout << "wsp y: " << x << endl;
-	cout << "promien: " << x << endl;
+	cout << "wsp y: " << y << endl;
+	cout << "promien: " << r << endl;
 	cout << endl;
 }
 
