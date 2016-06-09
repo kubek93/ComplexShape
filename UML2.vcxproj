@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComplexShape.h" />
     <ClInclude Include="Kolo.h" />
     <ClInclude Include="Prostokat.h" />
     <ClInclude Include="Shape.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ComplexShape.cpp" />
     <ClCompile Include="Kolo.cpp" />
     <ClCompile Include="Prostokat.cpp" />
     <ClCompile Include="Shape.cpp" />

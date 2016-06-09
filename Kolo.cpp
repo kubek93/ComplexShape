@@ -3,6 +3,7 @@
 
 
 Kolo::Kolo(double x, double y, double r)
+	:Shape(x, y)
 {
 	poz_x = x;
 	poz_y = y;

@@ -33,6 +33,9 @@
     <ClInclude Include="Kolo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ComplexShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Kolo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
