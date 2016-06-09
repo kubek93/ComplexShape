@@ -2,14 +2,16 @@
 #include "Shape.h"
 using namespace std;
 
-class Kolo :public Shape
+class Kolo
 {
-protected:
+public:
+	double poz_x;
+	double poz_y;
 	double sr;
 
-public:
+
 	Kolo(double, double, double);
 	void wyswietl();
+	bool in(double, double);
 	~Kolo();
 };
-

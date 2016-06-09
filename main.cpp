@@ -8,11 +8,14 @@ using namespace std;
 int main()
 {
 	Prostokat p1(1, 2, 3, 4);
+	p1.wyswietl();
+
 	Kolo k1(0, 0, 3);
+	k1.wyswietl();
 
-
+	p1.in(1, 2);
+	k1.in(0, 1);
 
 	system("pause");
-    return 0;
+	return 0;
 }
-

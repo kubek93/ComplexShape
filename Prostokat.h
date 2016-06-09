@@ -3,14 +3,17 @@
 #include "Shape.h"
 using namespace std;
 
-class Prostokat :public Shape
+class Prostokat
 {
-protected:
+public:
+	double poz_x;
+	double poz_y;
 	double bok_a;
 	double bok_b;
 
-public:
+
 	Prostokat(double, double, double, double);
 	void wyswietl();
+	void in(double, double);
 	~Prostokat();
 };

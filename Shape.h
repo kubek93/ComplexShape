@@ -1,16 +1,16 @@
 #pragma once
 #include <iostream>
 using namespace std;
+#include "Kolo.h"
 
 class Shape
 {
-protected:
+public:
 	double poz_x;
 	double poz_y;
 
-public:
+
 	Shape(double, double);
-	void wyswietl(double x, double y);
 	~Shape();
 };
 
