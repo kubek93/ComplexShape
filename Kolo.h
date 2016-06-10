@@ -10,9 +10,11 @@ protected:
 	double poz_y;
 	double sr;
 
+
 public:
 	Kolo(double, double, double);
 	void wyswietl();
-	bool in(double, double);
-	~Kolo();
+	virtual bool in(double, double);
+	virtual void movePosition(double, double);
+	virtual ~Kolo();
 };

@@ -1,10 +1,9 @@
 #include "stdafx.h"
 #include "Shape.h"
 
-Shape::Shape(double x, double y)
+Shape::Shape()
 {
-	poz_x = x;
-	poz_y = y;
+
 }
 
 bool Shape::in(double x, double y)
@@ -12,6 +11,9 @@ bool Shape::in(double x, double y)
 	return true;
 }
 
+void Shape::movePosition(double x, double y)
+{
+}
 
 Shape::~Shape()
 {

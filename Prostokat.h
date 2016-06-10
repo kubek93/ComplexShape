@@ -14,6 +14,7 @@ protected:
 public:
 	Prostokat(double, double, double, double);
 	void wyswietl();
-	bool in(double, double);
-	~Prostokat();
+	virtual bool in(double, double);
+	virtual void movePosition(double, double);
+	virtual ~Prostokat();
 };

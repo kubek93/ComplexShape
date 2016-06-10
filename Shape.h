@@ -8,8 +8,12 @@ protected:
 	double poz_x;
 	double poz_y;
 
+
+
+
 public:
-	Shape(double, double);
+	Shape();
 	virtual bool in(double, double);
-	~Shape();
+	virtual void movePosition(double, double);
+	virtual ~Shape();
 };

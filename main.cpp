@@ -9,7 +9,10 @@ int main()
 {
 	Prostokat p1(1, 2, 3, 4);
 	p1.wyswietl();
-	p1.in(1, 1.99);
+	p1.in(1, 2);
+	p1.movePosition(2, 4);
+	p1.wyswietl();
+	p1.in(1, 2);
 
 	cout << endl;
 

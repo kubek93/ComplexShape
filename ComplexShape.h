@@ -3,14 +3,19 @@
 #include "Shape.h"
 using namespace std;
 
+
 class ComplexShape :public Shape
 {
 protected:
 	double poz_x;
 	double poz_y;
 
+
 public:
 	ComplexShape(double, double);
-	void suma(int x, int y);
-	~ComplexShape();
+	bool suma(double, double);
+	bool roznica(double, double);
+	bool iloczyn(double, double);
+	virtual void movePosition(double, double);
+	virtual ~ComplexShape();
 };

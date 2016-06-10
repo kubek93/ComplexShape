@@ -3,7 +3,7 @@
 
 
 Kolo::Kolo(double x, double y, double r)
-	:Shape(x, y)
+	:Shape()
 {
 	poz_x = x;
 	poz_y = y;
@@ -29,6 +29,12 @@ bool Kolo::in(double x, double y)
 		cout << "Kolo - FALSE" << endl;
 		return false;
 	}
+}
+
+void Kolo::movePosition(double x, double y)
+{
+	this->poz_x += x;
+	this->poz_y += y;
 }
 
 Kolo::~Kolo()

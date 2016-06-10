@@ -2,7 +2,7 @@
 #include "Prostokat.h"
 
 Prostokat::Prostokat(double x, double y, double a, double b)
-	:Shape(x, y)
+	:Shape()
 {
 	poz_x = x;
 	poz_y = y;
@@ -31,6 +31,11 @@ bool Prostokat::in(double x, double y)
 	}
 }
 
+void Prostokat::movePosition(double x, double y)
+{
+	this->poz_x += x;
+	this->poz_y += y;
+}
 
 Prostokat::~Prostokat()
 {
